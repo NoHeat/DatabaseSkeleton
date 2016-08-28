@@ -27,7 +27,7 @@ public:
     bool connOpen()
     {
         mydb = QSqlDatabase::addDatabase("QSQLITE");
-        mydb.setDatabaseName("C:/sqlite3/database.sqlite");
+        mydb.setDatabaseName("C:/Sqlite_DB2/sqlite3/database.sqlite");
 
         if(!mydb.open())
         {
