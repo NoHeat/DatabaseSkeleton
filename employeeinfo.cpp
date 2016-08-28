@@ -149,6 +149,7 @@ void EmployeeInfo::on_pushButton_3_clicked()
     //ui->listView->setModel(modal);
     ui->tableView->setModel(modal);
 
+
     conn.connClose();
     qDebug() << (modal->rowCount());
 
